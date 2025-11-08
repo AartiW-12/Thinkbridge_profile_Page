@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intereactive System Manager</title>
+    <link rel="stylesheet" href="systemManager.css">
+</head>
+
+<body>
+    <header>
+        <h2>Intereactive System Manager</h2>
+        <p id="technologies">JAVA SWING | CORE JAVA | SOCKET PROGRAMMING | SQL | MYSQL</p>
+    </header>
+    <main>
+        <section id="intro">
+            <h3>INTRODUCTION</h3>
+            <p class="into-class">In today's era of big data, organizations are dealing with a vast amount of data that
+                is
+                often distributed across multiple databases. The management of multiple databases can be a
+                complex and time-consuming task. A multiple database management system (MDBMS) is a
+                software tool that can handle multiple databases from a single interface, enabling users to
+                manage data efficiently</p>
+            <p class="into-class">This project aims to develop an MDBMS using Java GUI and MySQL Server. The system
+                will provide a user-friendly interface that will enable users to perform various database
+                operations such as creating, modifying, and deleting databases, tables, and records. The system
+                will also provide advanced search and filter functionalities to extract data from multiple
+                databases easily.</p>
+            <p class="into-class">The project will use Java GUI to create a user-friendly interface for the system. The
+                system's backend will use MySQL Server to handle various database types, such as relational
+                databases. The system will ensure security by implementing various security features such as
+                user authentication and authorization.</p>
+            <p class="into-class">The proposed system will benefit organizations that manage multiple databases as it
+                will
+                provide a centralized system to manage them efficiently. The system will also be useful for
+                software developers as they can connect to multiple databases from a single interface, reducing
+                the time and effort required to manage multiple databases.
+            </p>
+            <p class="into-class">The project will follow best practices in software engineering to ensure the
+                development
+                of high-quality software. The project team will conduct rigorous testing to ensure the system's
+                functionality, reliability, and security. The system will be designed to handle large datasets
+                efficiently. The project will document the system's development and provide user manuals to
+                enable users to use the system effectively.</p>
+            <p class="into-class">In summary, the development of an MDBMS using Java GUI and MySQL Server will
+                provide an efficient and user-friendly tool for managing multiple databases. This system will
+                be beneficial for organizations dealing with big data, as well as software developers who need
+                to manage multiple databases.</p>
+        </section>
+        <section id="problem-statement">
+            <h3>PROBLEM STATEMENT </h3>
+            <p>Organizations dealing with large amounts of data often have multiple databases, which can be challenging
+                to manage. The lack of a centralized system can lead to data inconsistencies, security vulnerabilities,
+                and time-consuming management processes. Current solutions are limited, costly, and require specialized
+                skills to operate. A costeffective, user-friendly, and secure multiple database management system is
+                needed to address these challenges. This project proposes the development of an MDBMS using Java GUI and
+                MySQL Server to meet this need.</p>
+        </section>
+        <section id="objectives">
+            <h3>OBJECTIVES </h3>
+            <ul>
+                <li>Develop a multiple database management system using Java GUI and MySQL Server to provide a
+                    user-friendly interface for managing multiple databases efficiently.</li>
+                <li>Implement advanced search and filter functionalities to extract data from multiple databases easily.
+                </li>
+                <li>Ensure security by implementing user authentication and authorization to prevent unauthorized access
+                    to sensitive data.</li>
+                <li>Ensure scalability and extensibility of the system by designing it to handle large datasets
+                    efficiently and providing a flexible architecture that can be extended in the future.</li>
+                <li>Follow software engineering best practices, conduct rigorous testing, and provide documentation to
+                    ensure the system's functionality, reliability, and usability.</li>
+                <li>Provide a centralized dashboard to allow users to view and manage all connected databases from a
+                    single interface.</li>
+                <li>Incorporate data backup and recovery mechanisms to prevent data loss and ensure business continuity.
+                </li>
+                <li>Enable role-based access control so that different users can have different levels of permissions
+                    based on their responsibilities.</li>
+                <li>Implement data synchronization features to keep multiple databases consistent and up-to-date.</li>
+                <li>Provide customizable reports and data visualization tools to help users analyze data efficiently.
+                </li>
+                <li>Design the system to support concurrent user access without compromising performance or data
+                    integrity.</li>
+                <li>Facilitate easy integration with existing systems and databases to minimize migration effort.</li>
+            </ul>
+        </section>
+        <section id="overview">
+            <h3>PROJECT OVERVIEW</h3>
+            <p>This project involves engineering an interactive server-client application designed to manage multiple
+                databases efficiently. The frontend is developed using Java Swing, providing an intuitive and
+                user-friendly graphical interface for users to interact with the system. The backend is implemented
+                using Core Java, ensuring robust processing, data handling, and business logic execution. Communication
+                between the client and server is established through Java Socket Programming, enabling seamless
+                real-time data exchange and synchronization across multiple clients. The system utilizes MySQL as the
+                database management system, ensuring reliable storage, retrieval, and management of large datasets.
+                Together, these technologies create a scalable, secure, and efficient multiple database management
+                solution with a smooth and responsive user experience.</p>
+        </section>
+        <section id="block-level-diagram">
+            <h3>BLOCK LEVEL DIAGRAM</h3>
+
+            <div id="block-diagram">
+
+                <div class="block">Process Manager</div>
+                <div class="arrow">↓</div>
+
+                <div class="group">
+                    <div class="sub-block">Login</div>
+                    <div class="sub-block">Sign In</div>
+                    <div class="sub-block">Sign Up</div>
+                </div>
+                <div class="arrow">↓</div>
+
+                <div class="block">Socket (Client)</div>
+                <div class="arrow">↓</div>
+
+                <div class="block">Socket (Server)</div>
+                <div class="arrow">↓</div>
+
+                <div class="block">Data Manager<br><small>add / update / delete / view</small></div>
+                <div class="arrow">↓</div>
+
+                <div class="block">Query Generator</div>
+                <div class="arrow">↓</div>
+
+                <div class="block">JDBC Connection</div>
+                <div class="arrow">↓</div>
+
+                <div class="block">DATABASE</div>
+
+            </div>
+        </section>
+
+        <section id="achievement">
+            <h3>ACHIEVEMENTS</h3>
+            <ul>
+                <li>Successfully developed a fully functional Multiple Database Management System (MDBMS) with a
+                    user-friendly Java Swing interface.</li>
+                <li>Implemented real-time server-client communication using Java Socket Programming for seamless data
+                    transfer and updates.</li>
+                <li>Integrated Core Java backend logic with MySQL databases to manage large datasets efficiently.</li>
+                <li>Enabled secure access control through user authentication and authorization mechanisms, safeguarding
+                    sensitive data.</li>
+                <li>Implemented advanced search, filter, and query functionalities to allow efficient data retrieval
+                    across multiple databases.</li>
+                <li>Designed the system to be scalable and extensible, supporting future expansion and integration with
+                    other systems.</li>
+                <li>Incorporated data backup and recovery mechanisms to prevent data loss and ensure business
+                    continuity.</li>
+                <li>Provided comprehensive documentation and help guides, making the system easy to use even for
+                    non-technical users.</li>
+            </ul>
+        </section>
+        <section id="code">
+            <div id="project-links">
+                <a href="#">View Code</a>
+                <a href="#">project Demo</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>This project is developed for academic and research purposes, demonstrating the design and implementation of
+            a secure and efficient Multiple Database Management System using Java Swing, Core Java, MySQL, and Socket
+            Programming.</p>
+    </footer>
+</body>
+
+</html>
