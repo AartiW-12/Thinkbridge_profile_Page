@@ -9,21 +9,23 @@
 </head>
 
 <body>
+    <header>
+        <div id="profile_photo">
+            <img src="./assets/Aarti Photo.jpg" alt="">
+        </div>
+        <h2>Aarti Whaval</h2>
+        <div id="role">
+            <p>Full Stack Developer</p>
+        </div>
+        <div id="nav-links">
+            <a href="#projets">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
     <div id="container">
-        <header>
-            <div id="profile_photo">
-                <img src="./assets/Aarti Photo.jpg" alt="">
-            </div>
-            <h2>Aarti Whaval</h2>
-            <div id="role">
-                <p>Full Stack Developer</p>
-            </div>
-            <div id="nav-links">
-                <a href="#projets">Projets</a>
-                <a href="#skills">Skills</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </header>
+
         <nav id="social-links">
             <a href="https://www.linkedin.com/in/aarti-whaval-086206237/" target="_blank">LinkedIn</a>
             <a href="https://github.com/AartiW-12" target="_blank">GitHub</a>
@@ -60,7 +62,7 @@
             <h4 id="project-heading">Projects</h4>
             <div id="project-div">
                 <div id="first-project">
-                    <p class="project-title">Intereactive System Manager</p>
+                    <p class="project-title">Interactive System Manager</p>
                     <ul class="project-desc">
                         <li>Engineered a interactive server-client application leveraging Java Swing for an intuitive
                             user interface and Core Java for robust backend functionality, connected via Java Socket
@@ -128,6 +130,7 @@
                     </li>
                 </ul>
             </div>
+
             <div class="skills-div">
                 <h5 class="skill-title">CORE concepts</h5>
                 <ul class="skill-content">
@@ -147,17 +150,81 @@
                 </ul>
             </div>
         </section>
+
+        <section id="certifications">
+            <h4 id="certification-heading">Certifications</h4>
+
+            <div class="certificate-div">
+
+                <details class="certificate-item">
+                    <summary>
+                        <span>Java Certificate</span>
+                        <span class="arrow">➤</span>
+                    </summary>
+                    <img src="./certificates/Java-certificate.jpg" alt="Java Certificate">
+                </details>
+
+                <details class="certificate-item">
+                    <summary>
+                        <span>SQL Certificate</span>
+                        <span class="arrow">➤</span>
+                    </summary>
+                    <img src="./certificates/SQL-certificate.jpg" alt="SQL Certificate">
+                </details>
+
+                <details class="certificate-item">
+                    <summary>
+                        <span>Python for Data Science Certificate</span>
+                        <span class="arrow">➤</span>
+                    </summary>
+                    <img src="./certificates/Python for Data Science.jpg" alt="SQL Certificate">
+                </details>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Contact Me</h2>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="msg">Your Message</label>
+                    <textarea id="msg" rows="5" placeholder="Write your message..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-send">Send Message</button>
+            </form>
+        </section>
+
         <section id="contact">
             <h4 id="contact-heading">Contact</h4>
             <div id="contact-details">
-                <p id="phone">📞 Phone No. : 7058070051</p>
-                <p id="email">✉️ Email : <a href="mailto:aartiwhaval12@gmail.com">aartiwhaval12@gmail.com</a></p>
-                <p id="linkedIn">[in] LinkedIn : <a href="https://www.linkedin.com/in/aarti-whaval-086206237/">LinkedIn</a></p>
+                <p id="phone">📞 Phone No.
+                    <a href="https://wa.me/7058070051" target="_blank">7058070051</a>
+                </p>
+                <p id="email">✉️ Email :
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aartiwhaval12@gmail.com&su=Inquiry&body=Hi%20Aarti,"
+                        target="_blank">
+                        aartiwhaval12@gmail.com
+                    </a>
+                </p>
+                <p id="linkedIn">[in] LinkedIn : <a
+                        href="https://www.linkedin.com/in/aarti-whaval-086206237/">LinkedIn</a></p>
             </div>
         </section>
     </div>
     <footer>© 2025 Your Aarti. All Rights Reserved.
-</footer>
+    </footer>
 </body>
 
 </html>
